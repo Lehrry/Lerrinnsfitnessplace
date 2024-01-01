@@ -1,0 +1,392 @@
+/* the body section. basically anything that will affect the whole page in awhole */
+* {
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    /* width: 100%; */
+    box-sizing: border-box;
+    margin: 0;
+
+}
+
+/* General stylings */
+html, body {
+    background-color: black;
+    font-family: avenir lt std;
+    font-size: 16px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    /* padding: 0 60px; */
+}
+
+/* link stylings */
+a:link {
+    text-decoration: none;
+    color: inherit
+}
+
+a:hover {
+    color: whitesmoke
+}
+
+a:active {
+    color: grey;
+}
+/* link styling ends here */
+
+button {
+    width: fit-content;
+    border: none;
+    border-radius: 5px;
+    background-color: aliceblue;
+    color: #202020;
+    padding: 10px 40px;
+    font-weight: 600;
+}
+
+button:hover {
+    background-color: grey;
+    color: whitesmoke;
+}
+/* general styling ends here */
+
+/* this is the header styling area */
+/* header {
+    padding: 0 40px;
+} */
+
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding: 10px 60px ;
+    color: white;
+}
+
+.header-rightside {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+/* navigation styling starts here */
+.nav-area {
+    display: flex;
+    gap: 3rem;
+}
+
+.navlink {
+    max-width: 100%;
+    color: white;
+    text-decoration: none;
+    padding-bottom: 5px;
+}
+
+.navlink:hover {
+    border-bottom: solid 2px white;
+    /* border-radius: 50%; */
+}
+/* 
+.navlink::after {
+    color: #606060;
+    border-bottom: solid 2px white;
+} */
+
+.header-btn {
+    padding: 5px 20px;
+    border-radius: 3px;
+    background-color: #505050;
+    color: whitesmoke;
+}
+/* nav section ends here */
+---
+/* hero section */
+.hero {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 5rem;
+    padding: 100px 40px 0px 40px;
+}
+
+.routine-custom {
+    color: gray;
+}
+
+.hero-leftside {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 50%;
+}
+
+.header-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    gap: 20px;
+}
+
+.header-text h1 {
+    font-size: 3.5rem;
+    line-height: 3.5rem;
+    /* color: ; */
+}
+
+.header-text p {
+    width: 600px;
+    font-size: 1.2rem;
+}
+
+/* style the hero button section using flex (everything is this design is flexed) */
+.btn-section {
+ display: flex;
+ gap: 20px;
+ align-items: center;
+}
+
+.hero-btn {
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    font-weight: 700;
+    font-size: 15px;
+    width: 100%;
+}
+
+.btn-section a {
+    color: grey;
+    text-decoration: underline;
+}
+
+.hero-rightside {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.rightside img {
+    margin-top: -5rem;
+}
+
+/* hero section stops here */
+/* header styling ends here */
+
+
+/* Main body styling begins here */
+/* section 1 */
+section {
+    width: 100%;
+    padding: 100px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    align-items: center;
+}
+
+.section-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+.section1-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10rem;
+}
+
+.section-1 h1 {
+    font-size: 2.5rem;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+
+.content2 {
+    flex-direction: row-reverse;
+} 
+
+.content img {
+    width: 50%;
+}
+
+.text-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* align-self: flex-start; */
+    gap: 2rem;
+    width: 40%;
+}
+
+.text-section h3 {
+    font-size: 2rem;
+    color: grey;
+}
+
+/* section 2 */
+.section-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5rem;
+}
+
+.section2-wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 10rem;
+}
+
+.section-2 h3 {
+    font-size: 2rem;
+}
+
+/* section 3 */
+.section-3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.leftside {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 2rem;
+    padding-left: 5rem;
+}
+
+.leftside h3 {
+    font-size: x-large;
+}
+
+.leftside ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    list-style-type: none;
+    gap: 1rem;
+}
+
+.rightside {
+    width: 50%;
+}
+
+.testimonal h3{
+    font-size: xx-large;
+}
+
+.testimony-wrapper {
+    width: 1000px;
+    display: flex;
+    justify-content: space-around;
+    gap: 10rem;
+}
+
+.testimonals {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.testimonals h5 {
+    font-size: large;
+}
+
+.last-cta {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5rem;
+    padding: 5rem 0px;
+}
+
+.last-cta p {
+    width: 800px;
+    font-size: large;
+    text-align: center;
+}
+
+.lastcta-btn {
+    width: fit-content;
+}
+
+/* list servic benefit area */
+.section-wrapper:.left-side:ul {
+    list-style-type: circle;
+}
+
+
+/* Styling footer section */
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5rem;
+    padding: 50px 40px 10px 40px;
+    background-color: #202020;
+}
+
+.footerup {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.socialmedia {
+    display: flex;
+    justify-content: space-between;
+}
+
+.right{
+    display: flex;
+    justify-content: space-between;
+}
+
+.link-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.link-row ul {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 0.5rem;
+    text-decoration: none;
+    list-style: none;
+}
+
+.link-row ul li a {
+    color: white;
+}
+
+.copyright {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    gap: 0.5rem;
+}
